@@ -17,7 +17,8 @@ module.exports = {
   },
 
   production: {
-    client: "postgresql",
+    client: "sqlite3",
+    useNullAsDefault: true,
     connection: {
       filename: './data/readit.db3',
     },
