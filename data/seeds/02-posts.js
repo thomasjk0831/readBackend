@@ -18,6 +18,18 @@ exports.seed = function (knex) {
             user_id: 1,
             subreadit_id: 2
         },
+        {
+            title: "what is your favorite movie?",
+            body: "Mine is star wars",
+            user_id: 3,
+            subreadit_id: 3
+        },
+        {
+            title: "what is your favorite show?",
+            body: "Mine is Game of thrones",
+            user_id: 2,
+            subreadit_id: 3
+        },
 
     ];
 

@@ -6,6 +6,13 @@ exports.seed = function (knex) {
         {
             name: "hobbies"
         },
+        {
+            name: "movies"
+        },
+        {
+            name: "tv"
+        },
+
     ];
 
     return knex("subreadit").insert(subreadit);
