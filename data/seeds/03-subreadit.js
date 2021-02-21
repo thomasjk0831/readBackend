@@ -1,7 +1,7 @@
 exports.seed = function (knex) {
     const subreadit = [
         {
-            name: "Introductions"  //id:1
+            name: "introductions"  //id:1
         },
         {
             name: "hobbies"
@@ -11,6 +11,9 @@ exports.seed = function (knex) {
         },
         {
             name: "tv"
+        },
+        {
+            name: "programming"
         },
 
     ];
